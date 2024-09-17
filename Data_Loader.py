@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def load_and_explore_data(data_path):
+    data_path = '/Users/syedmohathashimali/Pratice/Steel_industry_data.csv'
     # Load the dataset
     data = pd.read_csv(data_path)
 
